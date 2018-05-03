@@ -11,8 +11,10 @@ prefix="--skip="
 param=${params#$prefix}
 IFS=', ' read -r -a params_array <<< ${param}
 
-
+# These are the years we will be merging
+# You can change this if you don't want to merge all years
 YEARS=( 15 13 12 11 10 00 )
+
 
 if [[ " ${params_array[*]} " != *" merge "* ]]; then
   cd raw_data/census_tracts
