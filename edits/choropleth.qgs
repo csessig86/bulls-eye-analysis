@@ -18,13 +18,13 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer providerKey="ogr" id="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" source="../raw_data/tornado_paths/torn.shp" expanded="1" checked="Qt::Checked" name="torn">
+    <layer-tree-layer id="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" source="../raw_data/tornado_paths/torn.shp" checked="Qt::Checked" expanded="1" name="torn" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" source="./edit_b_tracts_pop_format_15.shp" expanded="1" checked="Qt::Unchecked" name="edit_b_tracts_pop_format_15">
+    <layer-tree-layer id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" source="./edit_b_tracts_pop_format_15.shp" checked="Qt::Checked" expanded="1" name="edit_b_tracts_pop_format_15" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" source="./edit_b_tracts_pop_format_00.shp" expanded="1" checked="Qt::Checked" name="edit_b_tracts_pop_format_00">
+    <layer-tree-layer id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" source="./edit_b_tracts_pop_format_00.shp" checked="Qt::Checked" expanded="1" name="edit_b_tracts_pop_format_00" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -33,21 +33,21 @@
       <item>torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings type="1" unit="1" enabled="0" mode="2" intersection-snapping="0" tolerance="12">
+  <snapping-settings unit="1" tolerance="12" type="1" enabled="0" intersection-snapping="0" mode="2">
     <individual-layer-settings>
-      <layer-setting id="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" type="1" enabled="0" units="1" tolerance="12"/>
-      <layer-setting id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" type="1" enabled="0" units="1" tolerance="12"/>
-      <layer-setting id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" type="1" enabled="0" units="1" tolerance="12"/>
+      <layer-setting id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" tolerance="12" units="1" type="1" enabled="0"/>
+      <layer-setting id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" tolerance="12" units="1" type="1" enabled="0"/>
+      <layer-setting id="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" tolerance="12" units="1" type="1" enabled="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-97.7765294446711124</xmin>
-      <ymin>32.0497667566060187</ymin>
-      <xmax>-95.76859087217776789</xmax>
-      <ymax>33.68057765315278118</ymax>
+      <xmin>-97.75502907421926579</xmin>
+      <ymin>32.24350342691499804</ymin>
+      <xmax>-95.97702441997373057</xmax>
+      <ymax>33.50285434698190556</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -65,26 +65,26 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="torn">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0" name="torn">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" visible="1"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Unchecked" name="edit_b_tracts_pop_format_15">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0" name="edit_b_tracts_pop_format_15">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" visible="0"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="edit_b_tracts_pop_format_00">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0" name="edit_b_tracts_pop_format_00">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" visible="1"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer minScale="1e+8" autoRefreshEnabled="0" simplifyDrawingTol="1" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyLocal="1" type="vector" maxScale="0" refreshOnNotifyEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyMaxScale="1">
+    <maplayer labelsEnabled="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="vector" simplifyDrawingHints="1" minScale="1e+8" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" maxScale="0" geometry="Polygon" simplifyAlgorithm="0">
       <extent>
         <xmin>-106.64564599999999928</xmin>
         <ymin>25.83737700000000004</ymin>
@@ -127,11 +127,11 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minz="0" maxy="0" maxx="0" maxz="0" crs="" miny="0" dimensions="2" minx="0"/>
+          <spatial minz="0" maxx="0" dimensions="2" minx="0" maxy="0" crs="" maxz="0" miny="0"/>
           <temporal>
             <period>
               <start></start>
@@ -159,28 +159,28 @@
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 graduatedMethod="GraduatedColor" forceraster="0" symbollevels="0" attr="total_pop" enableorderby="0" type="graduatedSymbol">
+      <renderer-v2 type="graduatedSymbol" enableorderby="0" symbollevels="0" graduatedMethod="GraduatedColor" forceraster="0" attr="total_pop">
         <ranges>
-          <range lower="0.000000000000000" symbol="0" label=" 0 - 5000 " upper="5000.000000000000000" render="true"/>
-          <range lower="5000.000000000000000" symbol="1" label=" 5000 - 10000 " upper="10000.000000000000000" render="true"/>
-          <range lower="10000.000000000000000" symbol="2" label=" 10000 - 15000 " upper="15000.000000000000000" render="true"/>
-          <range lower="15000.000000000000000" symbol="3" label=" 15000 - 20000 " upper="20000.000000000000000" render="true"/>
-          <range lower="20000.000000000000000" symbol="4" label=" 20000 - 100000 " upper="100000.000000000000000" render="true"/>
+          <range lower="0.000000000000000" label=" 0 - 5000 " symbol="0" render="true" upper="5000.000000000000000"/>
+          <range lower="5000.000000000000000" label=" 5000 - 10000 " symbol="1" render="true" upper="10000.000000000000000"/>
+          <range lower="10000.000000000000000" label=" 10000 - 15000 " symbol="2" render="true" upper="15000.000000000000000"/>
+          <range lower="15000.000000000000000" label=" 15000 - 20000 " symbol="3" render="true" upper="20000.000000000000000"/>
+          <range lower="20000.000000000000000" label=" 20000 - 100000 " symbol="4" render="true" upper="100000.000000000000000"/>
         </ranges>
         <symbols>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="0">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,255,255,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,255,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -190,19 +190,19 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="1">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,191,191,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="1" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,191,191,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -212,19 +212,19 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="2">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,128,128,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="2" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,128,128,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -234,19 +234,19 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="3">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,64,64,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="3" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,64,64,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -256,19 +256,19 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="4">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,0,0,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="4" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,0,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -280,19 +280,19 @@
           </symbol>
         </symbols>
         <source-symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="0">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="254,59,186,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="254,59,186,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -304,20 +304,18 @@
           </symbol>
         </source-symbol>
         <colorramp type="gradient" name="[source]">
-          <prop v="255,255,255,255" k="color1"/>
-          <prop v="255,0,0,255" k="color2"/>
-          <prop v="0" k="discrete"/>
-          <prop v="gradient" k="rampType"/>
+          <prop k="color1" v="255,255,255,255"/>
+          <prop k="color2" v="255,0,0,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="rampType" v="gradient"/>
         </colorramp>
         <mode name="equal"/>
         <rotation/>
         <sizescale/>
-        <labelformat trimtrailingzeroes="true" format=" %1 - %2 " decimalplaces="-2"/>
+        <labelformat trimtrailingzeroes="true" decimalplaces="-2" format=" %1 - %2 "/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>geo_id</value>
-        </property>
+        <property key="dualview/previewExpressions" value="geo_id"/>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -326,11 +324,12 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory maxScaleDenominator="1e+8" minimumSize="0" penColor="#000000" opacity="1" lineSizeType="MM" penAlpha="255" height="15" sizeType="MM" backgroundColor="#ffffff" scaleDependency="Area" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" penWidth="0" width="15" diagramOrientation="Up" labelPlacementMethod="XHeight" minScaleDenominator="0" enabled="0" barWidth="5" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0">
+        <DiagramCategory minScaleDenominator="0" maxScaleDenominator="1e+8" penWidth="0" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" width="15" backgroundAlpha="255" sizeType="MM" enabled="0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" height="15" penAlpha="255" backgroundColor="#ffffff" diagramOrientation="Up" scaleDependency="Area" barWidth="5" penColor="#000000" opacity="1" rotationOffset="270">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings priority="0" linePlacementFlags="18" placement="0" obstacle="0" showAll="1" zIndex="0" dist="0">
+      <DiagramLayerSettings obstacle="0" placement="0" dist="0" zIndex="0" linePlacementFlags="18" priority="0" showAll="1">
         <properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -361,6 +360,13 @@
             </config>
           </editWidget>
         </field>
+        <field name="county_fps">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="total_pop">
           <editWidget type="TextEdit">
             <config>
@@ -370,44 +376,48 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="geo_id" name=""/>
-        <alias index="1" field="geo_id_two" name=""/>
-        <alias index="2" field="geo_label" name=""/>
-        <alias index="3" field="total_pop" name=""/>
+        <alias field="geo_id" index="0" name=""/>
+        <alias field="geo_id_two" index="1" name=""/>
+        <alias field="geo_label" index="2" name=""/>
+        <alias field="county_fps" index="3" name=""/>
+        <alias field="total_pop" index="4" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="geo_id"/>
-        <default applyOnUpdate="0" expression="" field="geo_id_two"/>
-        <default applyOnUpdate="0" expression="" field="geo_label"/>
-        <default applyOnUpdate="0" expression="" field="total_pop"/>
+        <default applyOnUpdate="0" field="geo_id" expression=""/>
+        <default applyOnUpdate="0" field="geo_id_two" expression=""/>
+        <default applyOnUpdate="0" field="geo_label" expression=""/>
+        <default applyOnUpdate="0" field="county_fps" expression=""/>
+        <default applyOnUpdate="0" field="total_pop" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="geo_id"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="geo_id_two"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="geo_label"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="total_pop"/>
+        <constraint notnull_strength="0" exp_strength="0" field="geo_id" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="geo_id_two" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="geo_label" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="county_fps" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="total_pop" unique_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" exp="" field="geo_id"/>
         <constraint desc="" exp="" field="geo_id_two"/>
         <constraint desc="" exp="" field="geo_label"/>
+        <constraint desc="" exp="" field="county_fps"/>
         <constraint desc="" exp="" field="total_pop"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;total_pop&quot;">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;total_pop&quot;" sortOrder="1">
         <columns>
-          <column hidden="0" type="field" width="-1" name="geo_id"/>
-          <column hidden="0" type="field" width="-1" name="geo_id_two"/>
-          <column hidden="0" type="field" width="-1" name="geo_label"/>
-          <column hidden="0" type="field" width="-1" name="total_pop"/>
-          <column hidden="1" type="actions" width="-1"/>
+          <column type="field" hidden="0" width="-1" name="geo_id"/>
+          <column type="field" hidden="0" width="-1" name="geo_id_two"/>
+          <column type="field" hidden="0" width="-1" name="geo_label"/>
+          <column type="field" hidden="0" width="-1" name="total_pop"/>
+          <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -437,10 +447,10 @@ def my_form_open(dialog, layer, feature):
         <field name="total_pop" editable="1"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="geo_id"/>
-        <field labelOnTop="0" name="geo_id_two"/>
-        <field labelOnTop="0" name="geo_label"/>
-        <field labelOnTop="0" name="total_pop"/>
+        <field name="geo_id" labelOnTop="0"/>
+        <field name="geo_id_two" labelOnTop="0"/>
+        <field name="geo_label" labelOnTop="0"/>
+        <field name="total_pop" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <conditionalstyles>
@@ -451,7 +461,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>geo_id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+8" autoRefreshEnabled="0" simplifyDrawingTol="1" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyLocal="1" type="vector" maxScale="0" refreshOnNotifyEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyMaxScale="1">
+    <maplayer labelsEnabled="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="vector" simplifyDrawingHints="1" minScale="1e+8" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" maxScale="0" geometry="Polygon" simplifyAlgorithm="0">
       <extent>
         <xmin>-106.64564599999999928</xmin>
         <ymin>25.8371639999999978</ymin>
@@ -498,7 +508,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minz="0" maxy="0" maxx="0" maxz="0" crs="" miny="0" dimensions="2" minx="0"/>
+          <spatial minz="0" maxx="0" dimensions="2" minx="0" maxy="0" crs="" maxz="0" miny="0"/>
           <temporal>
             <period>
               <start></start>
@@ -526,28 +536,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 graduatedMethod="GraduatedColor" forceraster="0" symbollevels="0" attr="total_pop" enableorderby="0" type="graduatedSymbol">
+      <renderer-v2 type="graduatedSymbol" enableorderby="0" symbollevels="0" graduatedMethod="GraduatedColor" forceraster="0" attr="total_pop">
         <ranges>
-          <range lower="0.000000000000000" symbol="0" label=" 0 - 5000 " upper="5000.000000000000000" render="true"/>
-          <range lower="5000.000000000000000" symbol="1" label=" 5000 - 10000 " upper="10000.000000000000000" render="true"/>
-          <range lower="10000.000000000000000" symbol="2" label=" 10000 - 15000 " upper="15000.000000000000000" render="true"/>
-          <range lower="15000.000000000000000" symbol="3" label=" 15000 - 20000 " upper="20000.000000000000000" render="true"/>
-          <range lower="20000.000000000000000" symbol="4" label=" 20000 - 53800 " upper="53812.000000000000000" render="true"/>
+          <range lower="0.000000000000000" label=" 0 - 5000 " symbol="0" render="true" upper="5000.000000000000000"/>
+          <range lower="5000.000000000000000" label=" 5000 - 10000 " symbol="1" render="true" upper="10000.000000000000000"/>
+          <range lower="10000.000000000000000" label=" 10000 - 15000 " symbol="2" render="true" upper="15000.000000000000000"/>
+          <range lower="15000.000000000000000" label=" 15000 - 20000 " symbol="3" render="true" upper="20000.000000000000000"/>
+          <range lower="20000.000000000000000" label=" 20000 - 53800 " symbol="4" render="true" upper="53812.000000000000000"/>
         </ranges>
         <symbols>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="0">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,255,255,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,255,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -557,19 +567,19 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="1">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,191,191,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="1" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,191,191,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -579,19 +589,19 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="2">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,128,128,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="2" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,128,128,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -601,19 +611,19 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="3">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,64,64,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="3" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,64,64,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -623,19 +633,19 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="4">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="255,0,0,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="4" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,0,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -647,19 +657,19 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </symbols>
         <source-symbol>
-          <symbol type="fill" alpha="1" clip_to_extent="1" name="0">
-            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="70,255,209,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,0" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.2" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="70,255,209,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -671,15 +681,15 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </source-symbol>
         <colorramp type="gradient" name="[source]">
-          <prop v="255,255,255,255" k="color1"/>
-          <prop v="255,0,0,255" k="color2"/>
-          <prop v="0" k="discrete"/>
-          <prop v="gradient" k="rampType"/>
+          <prop k="color1" v="255,255,255,255"/>
+          <prop k="color2" v="255,0,0,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="rampType" v="gradient"/>
         </colorramp>
         <mode name="equal"/>
         <rotation/>
         <sizescale/>
-        <labelformat trimtrailingzeroes="true" format=" %1 - %2 " decimalplaces="-2"/>
+        <labelformat trimtrailingzeroes="true" decimalplaces="-2" format=" %1 - %2 "/>
       </renderer-v2>
       <customproperties>
         <property key="dualview/previewExpressions">
@@ -694,11 +704,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory maxScaleDenominator="1e+8" minimumSize="0" penColor="#000000" opacity="1" lineSizeType="MM" penAlpha="255" height="15" sizeType="MM" backgroundColor="#ffffff" scaleDependency="Area" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" penWidth="0" width="15" diagramOrientation="Up" labelPlacementMethod="XHeight" minScaleDenominator="0" enabled="0" barWidth="5" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0">
+        <DiagramCategory minScaleDenominator="0" maxScaleDenominator="1e+8" penWidth="0" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" width="15" backgroundAlpha="255" sizeType="MM" enabled="0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" height="15" penAlpha="255" backgroundColor="#ffffff" diagramOrientation="Up" scaleDependency="Area" barWidth="5" penColor="#000000" opacity="1" rotationOffset="270">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings priority="0" linePlacementFlags="18" placement="0" obstacle="0" showAll="1" zIndex="0" dist="0">
+      <DiagramLayerSettings obstacle="0" placement="0" dist="0" zIndex="0" linePlacementFlags="18" priority="0" showAll="1">
         <properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -729,6 +740,13 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="county_fps">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="total_pop">
           <editWidget type="TextEdit">
             <config>
@@ -745,49 +763,53 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="geo_id" name=""/>
-        <alias index="1" field="geo_id_two" name=""/>
-        <alias index="2" field="geo_label" name=""/>
-        <alias index="3" field="total_pop" name=""/>
-        <alias index="4" field="moe" name=""/>
+        <alias field="geo_id" index="0" name=""/>
+        <alias field="geo_id_two" index="1" name=""/>
+        <alias field="geo_label" index="2" name=""/>
+        <alias field="county_fps" index="3" name=""/>
+        <alias field="total_pop" index="4" name=""/>
+        <alias field="moe" index="5" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="geo_id"/>
-        <default applyOnUpdate="0" expression="" field="geo_id_two"/>
-        <default applyOnUpdate="0" expression="" field="geo_label"/>
-        <default applyOnUpdate="0" expression="" field="total_pop"/>
-        <default applyOnUpdate="0" expression="" field="moe"/>
+        <default applyOnUpdate="0" field="geo_id" expression=""/>
+        <default applyOnUpdate="0" field="geo_id_two" expression=""/>
+        <default applyOnUpdate="0" field="geo_label" expression=""/>
+        <default applyOnUpdate="0" field="county_fps" expression=""/>
+        <default applyOnUpdate="0" field="total_pop" expression=""/>
+        <default applyOnUpdate="0" field="moe" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="geo_id"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="geo_id_two"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="geo_label"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="total_pop"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="moe"/>
+        <constraint notnull_strength="0" exp_strength="0" field="geo_id" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="geo_id_two" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="geo_label" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="county_fps" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="total_pop" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="moe" unique_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" exp="" field="geo_id"/>
         <constraint desc="" exp="" field="geo_id_two"/>
         <constraint desc="" exp="" field="geo_label"/>
+        <constraint desc="" exp="" field="county_fps"/>
         <constraint desc="" exp="" field="total_pop"/>
         <constraint desc="" exp="" field="moe"/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column hidden="0" type="field" width="-1" name="geo_id"/>
-          <column hidden="0" type="field" width="-1" name="geo_id_two"/>
-          <column hidden="0" type="field" width="-1" name="geo_label"/>
-          <column hidden="0" type="field" width="-1" name="total_pop"/>
-          <column hidden="0" type="field" width="-1" name="moe"/>
-          <column hidden="1" type="actions" width="-1"/>
+          <column type="field" hidden="0" width="-1" name="geo_id"/>
+          <column type="field" hidden="0" width="-1" name="geo_id_two"/>
+          <column type="field" hidden="0" width="-1" name="geo_label"/>
+          <column type="field" hidden="0" width="-1" name="total_pop"/>
+          <column type="field" hidden="0" width="-1" name="moe"/>
+          <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -818,11 +840,11 @@ def my_form_open(dialog, layer, feature):
         <field name="total_pop" editable="1"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="geo_id"/>
-        <field labelOnTop="0" name="geo_id_two"/>
-        <field labelOnTop="0" name="geo_label"/>
-        <field labelOnTop="0" name="moe"/>
-        <field labelOnTop="0" name="total_pop"/>
+        <field name="geo_id" labelOnTop="0"/>
+        <field name="geo_id_two" labelOnTop="0"/>
+        <field name="geo_label" labelOnTop="0"/>
+        <field name="moe" labelOnTop="0"/>
+        <field name="total_pop" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <conditionalstyles>
@@ -833,7 +855,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>geo_id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+8" autoRefreshEnabled="0" simplifyDrawingTol="1" labelsEnabled="0" geometry="Line" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyLocal="1" type="vector" maxScale="0" refreshOnNotifyEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyMaxScale="1">
+    <maplayer labelsEnabled="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="vector" simplifyDrawingHints="1" minScale="1e+8" simplifyLocal="1" autoRefreshTime="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" maxScale="0" geometry="Line" simplifyAlgorithm="0">
       <extent>
         <xmin>-258541.61896569901728071</xmin>
         <ymin>-1064090.94949441589415073</ymin>
@@ -880,7 +902,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minz="0" maxy="0" maxx="0" maxz="0" crs="" miny="0" dimensions="2" minx="0"/>
+          <spatial minz="0" maxx="0" dimensions="2" minx="0" maxy="0" crs="" maxz="0" miny="0"/>
           <temporal>
             <period>
               <start></start>
@@ -908,25 +930,25 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="line" alpha="1" clip_to_extent="1" name="0">
-            <layer pass="0" class="SimpleLine" enabled="1" locked="0">
-              <prop v="square" k="capstyle"/>
-              <prop v="5;2" k="customdash"/>
-              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-              <prop v="MM" k="customdash_unit"/>
-              <prop v="0" k="draw_inside_polygon"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0,0,255" k="line_color"/>
-              <prop v="solid" k="line_style"/>
-              <prop v="0.66" k="line_width"/>
-              <prop v="MM" k="line_width_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0" k="use_custom_dash"/>
-              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+          <symbol clip_to_extent="1" type="line" name="0" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,0,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.66"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -941,9 +963,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>"wid"</value>
-        </property>
+        <property key="dualview/previewExpressions" value="&quot;wid&quot;"/>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -952,11 +972,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory maxScaleDenominator="1e+8" minimumSize="0" penColor="#000000" opacity="1" lineSizeType="MM" penAlpha="255" height="15" sizeType="MM" backgroundColor="#ffffff" scaleDependency="Area" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" penWidth="0" width="15" diagramOrientation="Up" labelPlacementMethod="XHeight" minScaleDenominator="0" enabled="0" barWidth="5" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0">
+        <DiagramCategory minScaleDenominator="0" maxScaleDenominator="1e+8" penWidth="0" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" minimumSize="0" width="15" backgroundAlpha="255" sizeType="MM" enabled="0" labelPlacementMethod="XHeight" scaleBasedVisibility="0" height="15" penAlpha="255" backgroundColor="#ffffff" diagramOrientation="Up" scaleDependency="Area" barWidth="5" penColor="#000000" opacity="1" rotationOffset="270">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings priority="0" linePlacementFlags="18" placement="2" obstacle="0" showAll="1" zIndex="0" dist="0">
+      <DiagramLayerSettings obstacle="0" placement="2" dist="0" zIndex="0" linePlacementFlags="18" priority="0" showAll="1">
         <properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -1122,78 +1143,78 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="om" name=""/>
-        <alias index="1" field="yr" name=""/>
-        <alias index="2" field="mo" name=""/>
-        <alias index="3" field="dy" name=""/>
-        <alias index="4" field="date" name=""/>
-        <alias index="5" field="time" name=""/>
-        <alias index="6" field="tz" name=""/>
-        <alias index="7" field="st" name=""/>
-        <alias index="8" field="stf" name=""/>
-        <alias index="9" field="stn" name=""/>
-        <alias index="10" field="mag" name=""/>
-        <alias index="11" field="inj" name=""/>
-        <alias index="12" field="fat" name=""/>
-        <alias index="13" field="loss" name=""/>
-        <alias index="14" field="closs" name=""/>
-        <alias index="15" field="slat" name=""/>
-        <alias index="16" field="slon" name=""/>
-        <alias index="17" field="elat" name=""/>
-        <alias index="18" field="elon" name=""/>
-        <alias index="19" field="len" name=""/>
-        <alias index="20" field="wid" name=""/>
-        <alias index="21" field="fc" name=""/>
+        <alias field="om" index="0" name=""/>
+        <alias field="yr" index="1" name=""/>
+        <alias field="mo" index="2" name=""/>
+        <alias field="dy" index="3" name=""/>
+        <alias field="date" index="4" name=""/>
+        <alias field="time" index="5" name=""/>
+        <alias field="tz" index="6" name=""/>
+        <alias field="st" index="7" name=""/>
+        <alias field="stf" index="8" name=""/>
+        <alias field="stn" index="9" name=""/>
+        <alias field="mag" index="10" name=""/>
+        <alias field="inj" index="11" name=""/>
+        <alias field="fat" index="12" name=""/>
+        <alias field="loss" index="13" name=""/>
+        <alias field="closs" index="14" name=""/>
+        <alias field="slat" index="15" name=""/>
+        <alias field="slon" index="16" name=""/>
+        <alias field="elat" index="17" name=""/>
+        <alias field="elon" index="18" name=""/>
+        <alias field="len" index="19" name=""/>
+        <alias field="wid" index="20" name=""/>
+        <alias field="fc" index="21" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="" field="om"/>
-        <default applyOnUpdate="0" expression="" field="yr"/>
-        <default applyOnUpdate="0" expression="" field="mo"/>
-        <default applyOnUpdate="0" expression="" field="dy"/>
-        <default applyOnUpdate="0" expression="" field="date"/>
-        <default applyOnUpdate="0" expression="" field="time"/>
-        <default applyOnUpdate="0" expression="" field="tz"/>
-        <default applyOnUpdate="0" expression="" field="st"/>
-        <default applyOnUpdate="0" expression="" field="stf"/>
-        <default applyOnUpdate="0" expression="" field="stn"/>
-        <default applyOnUpdate="0" expression="" field="mag"/>
-        <default applyOnUpdate="0" expression="" field="inj"/>
-        <default applyOnUpdate="0" expression="" field="fat"/>
-        <default applyOnUpdate="0" expression="" field="loss"/>
-        <default applyOnUpdate="0" expression="" field="closs"/>
-        <default applyOnUpdate="0" expression="" field="slat"/>
-        <default applyOnUpdate="0" expression="" field="slon"/>
-        <default applyOnUpdate="0" expression="" field="elat"/>
-        <default applyOnUpdate="0" expression="" field="elon"/>
-        <default applyOnUpdate="0" expression="" field="len"/>
-        <default applyOnUpdate="0" expression="" field="wid"/>
-        <default applyOnUpdate="0" expression="" field="fc"/>
+        <default applyOnUpdate="0" field="om" expression=""/>
+        <default applyOnUpdate="0" field="yr" expression=""/>
+        <default applyOnUpdate="0" field="mo" expression=""/>
+        <default applyOnUpdate="0" field="dy" expression=""/>
+        <default applyOnUpdate="0" field="date" expression=""/>
+        <default applyOnUpdate="0" field="time" expression=""/>
+        <default applyOnUpdate="0" field="tz" expression=""/>
+        <default applyOnUpdate="0" field="st" expression=""/>
+        <default applyOnUpdate="0" field="stf" expression=""/>
+        <default applyOnUpdate="0" field="stn" expression=""/>
+        <default applyOnUpdate="0" field="mag" expression=""/>
+        <default applyOnUpdate="0" field="inj" expression=""/>
+        <default applyOnUpdate="0" field="fat" expression=""/>
+        <default applyOnUpdate="0" field="loss" expression=""/>
+        <default applyOnUpdate="0" field="closs" expression=""/>
+        <default applyOnUpdate="0" field="slat" expression=""/>
+        <default applyOnUpdate="0" field="slon" expression=""/>
+        <default applyOnUpdate="0" field="elat" expression=""/>
+        <default applyOnUpdate="0" field="elon" expression=""/>
+        <default applyOnUpdate="0" field="len" expression=""/>
+        <default applyOnUpdate="0" field="wid" expression=""/>
+        <default applyOnUpdate="0" field="fc" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="om"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="yr"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="mo"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="dy"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="date"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="time"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="tz"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="st"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="stf"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="stn"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="mag"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="inj"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="fat"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="loss"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="closs"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="slat"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="slon"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="elat"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="elon"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="len"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="wid"/>
-        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="fc"/>
+        <constraint notnull_strength="0" exp_strength="0" field="om" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="yr" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="mo" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="dy" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="date" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="time" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="tz" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="st" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="stf" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="stn" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="mag" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="inj" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="fat" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="loss" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="closs" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="slat" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="slon" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="elat" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="elon" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="len" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="wid" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" exp_strength="0" field="fc" unique_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" exp="" field="om"/>
@@ -1222,34 +1243,34 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column hidden="0" type="field" width="-1" name="om"/>
-          <column hidden="0" type="field" width="-1" name="yr"/>
-          <column hidden="0" type="field" width="-1" name="mo"/>
-          <column hidden="0" type="field" width="-1" name="dy"/>
-          <column hidden="0" type="field" width="-1" name="date"/>
-          <column hidden="0" type="field" width="-1" name="time"/>
-          <column hidden="0" type="field" width="-1" name="tz"/>
-          <column hidden="0" type="field" width="-1" name="st"/>
-          <column hidden="0" type="field" width="-1" name="stf"/>
-          <column hidden="0" type="field" width="-1" name="stn"/>
-          <column hidden="0" type="field" width="-1" name="mag"/>
-          <column hidden="0" type="field" width="-1" name="inj"/>
-          <column hidden="0" type="field" width="-1" name="fat"/>
-          <column hidden="0" type="field" width="-1" name="loss"/>
-          <column hidden="0" type="field" width="-1" name="closs"/>
-          <column hidden="0" type="field" width="-1" name="slat"/>
-          <column hidden="0" type="field" width="-1" name="slon"/>
-          <column hidden="0" type="field" width="-1" name="elat"/>
-          <column hidden="0" type="field" width="-1" name="elon"/>
-          <column hidden="0" type="field" width="-1" name="len"/>
-          <column hidden="0" type="field" width="-1" name="wid"/>
-          <column hidden="0" type="field" width="-1" name="fc"/>
-          <column hidden="1" type="actions" width="-1"/>
+          <column type="field" hidden="0" width="-1" name="om"/>
+          <column type="field" hidden="0" width="-1" name="yr"/>
+          <column type="field" hidden="0" width="-1" name="mo"/>
+          <column type="field" hidden="0" width="-1" name="dy"/>
+          <column type="field" hidden="0" width="-1" name="date"/>
+          <column type="field" hidden="0" width="-1" name="time"/>
+          <column type="field" hidden="0" width="-1" name="tz"/>
+          <column type="field" hidden="0" width="-1" name="st"/>
+          <column type="field" hidden="0" width="-1" name="stf"/>
+          <column type="field" hidden="0" width="-1" name="stn"/>
+          <column type="field" hidden="0" width="-1" name="mag"/>
+          <column type="field" hidden="0" width="-1" name="inj"/>
+          <column type="field" hidden="0" width="-1" name="fat"/>
+          <column type="field" hidden="0" width="-1" name="loss"/>
+          <column type="field" hidden="0" width="-1" name="closs"/>
+          <column type="field" hidden="0" width="-1" name="slat"/>
+          <column type="field" hidden="0" width="-1" name="slon"/>
+          <column type="field" hidden="0" width="-1" name="elat"/>
+          <column type="field" hidden="0" width="-1" name="elon"/>
+          <column type="field" hidden="0" width="-1" name="len"/>
+          <column type="field" hidden="0" width="-1" name="wid"/>
+          <column type="field" hidden="0" width="-1" name="fc"/>
+          <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -1297,28 +1318,28 @@ def my_form_open(dialog, layer, feature):
         <field name="yr" editable="1"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="closs"/>
-        <field labelOnTop="0" name="date"/>
-        <field labelOnTop="0" name="dy"/>
-        <field labelOnTop="0" name="elat"/>
-        <field labelOnTop="0" name="elon"/>
-        <field labelOnTop="0" name="fat"/>
-        <field labelOnTop="0" name="fc"/>
-        <field labelOnTop="0" name="inj"/>
-        <field labelOnTop="0" name="len"/>
-        <field labelOnTop="0" name="loss"/>
-        <field labelOnTop="0" name="mag"/>
-        <field labelOnTop="0" name="mo"/>
-        <field labelOnTop="0" name="om"/>
-        <field labelOnTop="0" name="slat"/>
-        <field labelOnTop="0" name="slon"/>
-        <field labelOnTop="0" name="st"/>
-        <field labelOnTop="0" name="stf"/>
-        <field labelOnTop="0" name="stn"/>
-        <field labelOnTop="0" name="time"/>
-        <field labelOnTop="0" name="tz"/>
-        <field labelOnTop="0" name="wid"/>
-        <field labelOnTop="0" name="yr"/>
+        <field name="closs" labelOnTop="0"/>
+        <field name="date" labelOnTop="0"/>
+        <field name="dy" labelOnTop="0"/>
+        <field name="elat" labelOnTop="0"/>
+        <field name="elon" labelOnTop="0"/>
+        <field name="fat" labelOnTop="0"/>
+        <field name="fc" labelOnTop="0"/>
+        <field name="inj" labelOnTop="0"/>
+        <field name="len" labelOnTop="0"/>
+        <field name="loss" labelOnTop="0"/>
+        <field name="mag" labelOnTop="0"/>
+        <field name="mo" labelOnTop="0"/>
+        <field name="om" labelOnTop="0"/>
+        <field name="slat" labelOnTop="0"/>
+        <field name="slon" labelOnTop="0"/>
+        <field name="st" labelOnTop="0"/>
+        <field name="stf" labelOnTop="0"/>
+        <field name="stn" labelOnTop="0"/>
+        <field name="time" labelOnTop="0"/>
+        <field name="tz" labelOnTop="0"/>
+        <field name="wid" labelOnTop="0"/>
+        <field name="yr" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <conditionalstyles>
@@ -1340,42 +1361,42 @@ def my_form_open(dialog, layer, feature):
       <Automatic type="bool">true</Automatic>
       <DecimalPlaces type="int">2</DecimalPlaces>
     </PositionPrecision>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <Gui>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-    </Gui>
-    <PAL>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <SearchMethod type="int">0</SearchMethod>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-    </PAL>
-    <Measurement>
-      <DistanceUnits type="QString"></DistanceUnits>
-      <AreaUnits type="QString"></AreaUnits>
-    </Measurement>
     <SpatialRefSys>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+    </PAL>
+    <Gui>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
     <Measure>
       <Ellipsoid type="QString">WGS84</Ellipsoid>
     </Measure>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
   </properties>
   <visibility-presets/>
   <transformContext/>

@@ -21,10 +21,10 @@
     <layer-tree-layer providerKey="ogr" id="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" source="../raw_data/tornado_paths/torn.shp" expanded="1" checked="Qt::Checked" name="torn">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" source="./edit_b_tracts_pop_format_00.shp" expanded="1" checked="Qt::Checked" name="edit_b_tracts_pop_format_00">
+    <layer-tree-layer providerKey="ogr" id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" source="./edit_b_tracts_pop_format_15.shp" expanded="1" checked="Qt::Unchecked" name="edit_b_tracts_pop_format_15">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" source="./edit_b_tracts_pop_format_15.shp" expanded="1" checked="Qt::Checked" name="edit_b_tracts_pop_format_15">
+    <layer-tree-layer providerKey="ogr" id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" source="./edit_b_tracts_pop_format_00.shp" expanded="1" checked="Qt::Checked" name="edit_b_tracts_pop_format_00">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -44,10 +44,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-97.40368836601076907</xmin>
-      <ymin>32.39544524901803157</ymin>
-      <xmax>-96.08322891557820356</xmax>
-      <ymax>33.46789820635112989</ymax>
+      <xmin>-97.7765294446711124</xmin>
+      <ymin>32.0497667566060187</ymin>
+      <xmax>-95.76859087217776789</xmax>
+      <ymax>33.68057765315278118</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -70,14 +70,14 @@
         <legendlayerfile isInOverview="0" layerid="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Unchecked" name="edit_b_tracts_pop_format_15">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" visible="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="edit_b_tracts_pop_format_00">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="edit_b_tracts_pop_format_15">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -1352,6 +1352,17 @@ def my_form_open(dialog, layer, feature):
       <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
       <SelectionColorBluePart type="int">0</SelectionColorBluePart>
     </Gui>
+    <PAL>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+    </PAL>
     <Measurement>
       <DistanceUnits type="QString"></DistanceUnits>
       <AreaUnits type="QString"></AreaUnits>

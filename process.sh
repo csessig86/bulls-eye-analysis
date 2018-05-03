@@ -13,7 +13,7 @@ IFS=', ' read -r -a params_array <<< ${param}
 
 
 # YEARS=( 15 13 12 11 10 00 )
-YEARS=( 00 )
+YEARS=( 15 )
 
 if [[ " ${params_array[*]} " != *" merge "* ]]; then
   cd raw_data/census_tracts
@@ -76,34 +76,6 @@ if [[ " ${params_array[*]} " != *" filter "* ]]; then
     else
       ogr2ogr -sql "SELECT ACS_${year}_5YR as geo_id, ACS_${year}_5_1 as geo_id_two, ACS_${year}_5_2 as geo_label, tl_20${year}__1 as county_fps, cast(ACS_${year}_5_3 as float(10,0)) as total_pop, cast(ACS_${year}_5_4 as float(10,0)) as moe FROM $EDIT_ONE" $EDIT_TWO.shp $EDIT_ONE.shp -progress
     fi
-  done
-
-  cd ../../
-fi
-
-if [[ " ${params_array[*]} " != *" random-points "* ]]; then
-  cd edits/
-
-  for year in "${YEARS[@]}";
-  do
-    echo "Current year: ${year}"
-    EDIT_TWO="edit_b_tracts_pop_format_${year}"
-    EDIT_THREE="edit_c_random_points_${year}"
-
-    echo "Create PostgreSQL db called db${year} and append shapefile to it"
-    # createdb bulls_eye
-    psql -d bulls_eye -c "DROP TABLE db${year};"
-    psql -d bulls_eye -c "CREATE TABLE db${year}();"
-    shp2pgsql -c $EDIT_TWO.shp db${year} | psql -d bulls_eye
-
-    # ogr2ogr -append -f "PostgreSQL" PG:"bulls_eye=db${year}" $EDIT_TWO.shp -nln $EDIT_TWO 
-    
-    # echo "Query db"
-    # pgsql2shp -f $EDIT_THREE db${year} "SELECT RandomPointsInPolygon($EDIT_TWO.geom, 'total_pop') AS random_points FROM $EDIT_TWO"
-    
-    # psql -d db${year} -c "SELECT RandomPointsInPolygon($EDIT_TWO.geom, 'total_pop') AS manypoints FROM $EDIT_TWO"
-    # ogr2ogr -f "PostgreSQL" PG:"dbname=db" spatialitedb -sql "SELECT * FROM table" -dialect spatialite -nln new_table
-    # ogr2ogr -dialect spatialite -sql "SELECT RandomPointsInPolygon($EDIT_TWO.geom, 'total_pop') AS manypoints FROM $EDIT_TWO" $EDIT_THREE.shp $EDIT_TWO.shp -progress
   done
 
   cd ../../
