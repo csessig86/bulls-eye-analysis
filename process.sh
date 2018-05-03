@@ -12,8 +12,7 @@ param=${params#$prefix}
 IFS=', ' read -r -a params_array <<< ${param}
 
 
-# YEARS=( 15 13 12 11 10 00 )
-YEARS=( 15 )
+YEARS=( 15 13 12 11 10 00 )
 
 if [[ " ${params_array[*]} " != *" merge "* ]]; then
   cd raw_data/census_tracts

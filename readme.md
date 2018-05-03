@@ -2,10 +2,10 @@
 
 The files used to run the analysis for our Bull's Eye story.
 
-The processing tasks are inside:
+To run the processing tasks:
 
 ```console
-process.sh
+sh process.sh
 ```
 
 The first task merges Texas census tract shapefiles with population csvs. The raw data is in the raw_data directory. The shapefiles are made available by the [U.S. Census](https://www.census.gov/cgi-bin/geo/shapefiles/index.php). The population counts can be found on the [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml).
