@@ -21,10 +21,10 @@
     <layer-tree-layer id="torn_42d6798d_06a1_4e3f_b6f9_3f8c5c3d0150" source="../raw_data/tornado_paths/torn.shp" checked="Qt::Checked" expanded="1" name="torn" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" source="./edit_b_tracts_pop_format_15.shp" checked="Qt::Checked" expanded="1" name="edit_b_tracts_pop_format_15" providerKey="ogr">
+    <layer-tree-layer id="edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61" source="../edits/edit_b_tracts_pop_format_15.shp" checked="Qt::Checked" expanded="1" name="edit_b_tracts_pop_format_15" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" source="./edit_b_tracts_pop_format_00.shp" checked="Qt::Checked" expanded="1" name="edit_b_tracts_pop_format_00" providerKey="ogr">
+    <layer-tree-layer id="edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338" source="../edits/edit_b_tracts_pop_format_00.shp" checked="Qt::Checked" expanded="1" name="edit_b_tracts_pop_format_00" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -44,10 +44,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-97.75502907421926579</xmin>
-      <ymin>32.24350342691499804</ymin>
-      <xmax>-95.97702441997373057</xmax>
-      <ymax>33.50285434698190556</ymax>
+      <xmin>-97.78819452774783372</xmin>
+      <ymin>32.13071240825853181</ymin>
+      <xmax>-95.96626191732821098</xmax>
+      <ymax>33.42117725813636753</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -92,7 +92,7 @@
         <ymax>36.50070399999999893</ymax>
       </extent>
       <id>edit_b_tracts_pop_format_00_dcdb11e2_5d82_436b_935a_71cb3d7cb338</id>
-      <datasource>./edit_b_tracts_pop_format_00.shp</datasource>
+      <datasource>../edits/edit_b_tracts_pop_format_00.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -417,7 +417,7 @@
           <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform>../edits</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -469,7 +469,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>36.50070399999999893</ymax>
       </extent>
       <id>edit_b_tracts_pop_format_15_2a02cafc_a379_4ab3_a973_8f250af4db61</id>
-      <datasource>./edit_b_tracts_pop_format_15.shp</datasource>
+      <datasource>../edits/edit_b_tracts_pop_format_15.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -809,7 +809,7 @@ def my_form_open(dialog, layer, feature):
           <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform>../edits</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -1270,7 +1270,7 @@ def my_form_open(dialog, layer, feature):
           <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform>../edits</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -1373,9 +1373,9 @@ def my_form_open(dialog, layer, feature):
       <SearchMethod type="int">0</SearchMethod>
       <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
       <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
       <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
       <CandidatesPoint type="int">16</CandidatesPoint>
     </PAL>
     <Gui>
